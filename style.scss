@@ -702,10 +702,10 @@ $xxl: 2400px;
         display: none;
         position: absolute;
         top: 25% !important;
-        right: 0 !important;
+        right: 30px !important;
         transform: translate(0, -50%);
         z-index: -1;
-        
+
         @include up($md) {
             display: block;
         }
